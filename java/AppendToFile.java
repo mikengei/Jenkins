@@ -1,10 +1,11 @@
 import java.io.FileWriter;
 import java.io.IOException;
 
+//test
 public class AppendToFile {
     public static void main(String[] args) {
         String fileName = "test.txt";
-        String contentToAppend = "Hello, World!\n";
+        String contentToAppend = "Fetching changes from the remote Git repository\n";
 
         try {
             FileWriter fileWriter = new FileWriter(fileName, true); // The true parameter indicates append mode
