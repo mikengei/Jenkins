@@ -1,1 +1,2 @@
 Hello, World!
+Fetching changes from the remote Git repository
